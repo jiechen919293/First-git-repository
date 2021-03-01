@@ -1,0 +1,64 @@
+body {
+    font-size: 20px;
+    font-family: Helvetica, helvetica;
+    border: 3px solid #004d99;
+    padding: 5px;
+    margin: 0 auto;
+}
+
+li,
+a {
+    text-decoration: none;
+}
+
+header {
+    height: 56px;
+    text-align: center;
+    background-color: dodgerblue;
+    padding: 10px;
+}
+
+header li {
+    display: inline;
+    background-color: #004d99;
+    font-style: helvetica;
+    padding: 10px;
+}
+
+header a,
+footer a {
+    color: white;
+}
+
+h2 {
+    color: white;
+    line-height: 50px;
+    text-align: center;
+    background-color: dodgerblue;
+}
+
+table,
+tr,
+th,
+td {
+    margin: 0 auto;
+    border: 2px solid grey;
+    border-collapse: collapse;
+    outline-style: solid lightgrey;
+    padding: 10px;
+}
+
+tr:nth-child(odd) {
+    background-color: #99ccff;
+}
+
+.head {
+    background-color: dodgerblue;
+    color: white;
+}
+
+footer {
+    background-color: #004d99;
+    text-align: center;
+    padding: 10px;
+}
